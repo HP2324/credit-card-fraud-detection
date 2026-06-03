@@ -14,7 +14,7 @@ covering the full pipeline from exploratory data analysis to model evaluation.
 - Supervised classification using Logistic Regression, Decision Tree, and Random Forest
 - Handles severe class imbalance (0.172% fraud) via undersampling and SMOTE oversampling
 - Side-by-side model comparison with accuracy, precision, recall, and F1 metrics
-- Interactive Tkinter GUI for real-time fraud prediction on individual transactions
+- Saves the best performing model using joblib for reuse
 
 ---
 
@@ -38,14 +38,14 @@ covering the full pipeline from exploratory data analysis to model evaluation.
 
 ## Project Structure
 
+```
 credit-card-fraud-detection/
-├── Anomaly_Detection.ipynb                    # Unsupervised anomaly detection
-├── Supervised-Learning.ipynb          # Supervised classification + GUI
+├── Anomaly-Detection.ipynb                    # Unsupervised anomaly detection
+├── Supervised_Learning.ipynb                  # Supervised classification
 ├── requirements.txt                           # Python dependencies
 ├── .gitignore                                 # Ignores dataset, checkpoints, etc.
 └── README.md
-
----
+```
 
 ---
 
