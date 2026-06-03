@@ -1,0 +1,22 @@
+# Dataset
+*.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Mac system files
+.DS_Store
+
+# Saved models
+*.pkl
+
+# Virtual environments
+venv/
+env/
+.env
